@@ -14,5 +14,5 @@ then
   #echo "$condition$text_condition | $temperature"
   echo " $format " | sed -e 's/  / /g' | sed -e 's/+//g'
 else
-  echo " 摒 +0°C "
+  echo "+0°C "
 fi
